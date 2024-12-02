@@ -1,28 +1,15 @@
 /* General settings */
 body {
-    margin: 0;
-    font-family: 'Literata', serif; /* Set the font */
-    text-align: center; /* Center-align text globally */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default browser margin */
+    font-family: 'Literata', serif;
+    padding-top: 50px; /* Add a margin at the top */
+    text-align: center; /* Align content to the center by default */
 }
 
-/* Header styles */
+/* Center top section */
 header {
-    margin-bottom: 20px;
-}
-
-header h1 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-}
-
-header p {
-    font-size: 0.5rem;
-    color: gray;
+    text-align: center; /* Center only the header */
+    margin-bottom: 30px; /* Add space below the header */
 }
 
 /* Navigation styles */
@@ -31,27 +18,30 @@ nav {
 }
 
 nav a {
-    margin: 0 15px;
+    margin: 0 10px;
     text-decoration: none;
     color: black;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 /* Section styles */
 section {
-    margin: 20px 0;
-    width: 60%; /* Constrain the width for better readability */
+    margin: 20px auto; /* Center horizontally if sections have a defined width */
+    max-width: 800px; /* Optional: constrain width for readability */
 }
 
-/* Section headings */
 section h2 {
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin-bottom: 10px;
 }
 
-/* Footer links */
+section p {
+    font-size: 1rem;
+}
+
+/* Links */
 a {
-    color: #1a73e8; /* Add a light blue for links */
+    color: #1a73e8;
     text-decoration: none;
 }
 
