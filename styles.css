@@ -1,0 +1,60 @@
+/* General settings */
+body {
+    margin: 0;
+    font-family: 'Literata', serif; /* Set the font */
+    text-align: center; /* Center-align text globally */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+}
+
+/* Header styles */
+header {
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.5rem;
+    color: gray;
+}
+
+/* Navigation styles */
+nav {
+    margin-bottom: 20px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
+/* Section styles */
+section {
+    margin: 20px 0;
+    width: 60%; /* Constrain the width for better readability */
+}
+
+/* Section headings */
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+/* Footer links */
+a {
+    color: #1a73e8; /* Add a light blue for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
